@@ -1,6 +1,8 @@
 package tontinas
 
+
 import test2.fool._
+import fin.demes._
 
 import java.math._
 
@@ -15,4 +17,6 @@ object TontinaApp extends App {
   tontoExtJava.toString()
   
   println(Math.EPS_FLOAT)
+  
+  println(FinDeMes.calculateGastosFinDeMes())
 }
